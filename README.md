@@ -1,6 +1,5 @@
 ## restaurante_java
 
-# restaurante_java
 
 # 🍝 Pasta Bella — Sistema de Pedidos
 
