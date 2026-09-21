@@ -1,10 +1,11 @@
 ## restaurante_java
 
+# restaurante_java
 
- # 🍝 Pasta Bella — Sistema de Pedidos
+# 🍝 Pasta Bella — Sistema de Pedidos
 
 Projeto desenvolvido para demonstrar os principais conceitos da
-Programação Orientada a Objetos (POO) utilizando JavaScript.
+Programação Orientada a Objetos (POO) utilizando Java.
 
 O sistema simula um restaurante de massas chamado **Pasta Bella**,
 permitindo trabalhar com diferentes tipos de massas e pedidos.
@@ -37,41 +38,28 @@ Cada tipo de massa possui seu próprio comportamento para o método
 
 # 💻 Tecnologias utilizadas
 
-- HTML5
-- JavaScript
+- Java
 - Visual Studio Code
-- Extensão Live Server
+- JDK (Java Development Kit)
 
-> Este projeto utiliza JavaScript diretamente no navegador.
-> Não é necessário instalar Node.js.
-
+> Este projeto utiliza Java para executar o sistema diretamente
+> pelo ambiente de desenvolvimento.
 
 ---
 
-
 # 💻 Execução
-1. Abrir o VS Code
-        ↓
-2. Abrir a pasta do projeto
-        ↓
-3. Instalar a extensão Live Server
-        ↓
-4. Abrir o index.html
-        ↓
-5. Botão direito no index.html
-        ↓
-6. Open with Live Server
-        ↓
-7. Navegador abre o projeto
-        ↓
-8. Botão direito na página
-        ↓
-9. Inspecionar
-        ↓
-10. Console
-        ↓
-11. Visualizar os resultados do JavaScript
 
+1. Instalar o Java JDK
+        ↓
+2. Abrir o VS Code
+        ↓
+3. Abrir a pasta do projeto
+        ↓
+4. Abrir o arquivo Main.java
+        ↓
+5. Executar o arquivo Main.java
+        ↓
+6. Visualizar os resultados no terminal
 
 ---
 
@@ -79,5 +67,45 @@ Cada tipo de massa possui seu próprio comportamento para o método
 
 A estrutura utilizada no projeto é:
 
-├── index.html
-├── script.js
+├── Main.java
+├── Massa.java
+├── Pedido.java
+├── Espaguete.java
+├── Lasanha.java
+└── Ravioli.java
+
+---
+
+# 🧠 Funcionamento
+
+A classe `Massa` representa a classe principal do sistema.
+
+As classes:
+
+- `Espaguete`
+- `Lasanha`
+- `Ravioli`
+
+herdam características da classe `Massa`.
+
+A classe `Pedido` é responsável por armazenar as massas adicionadas
+ao pedido, preparar os produtos e calcular o valor total.
+
+O programa principal está localizado no arquivo `Main.java`.
+
+---
+
+# 🎯 Resultado esperado
+
+Ao executar o programa, o terminal deverá apresentar:
+
+Preparando: Espaguete à Bolonhesa
+Cozinhando o espaguete...
+
+Preparando: Lasanha de Queijo
+Montando as camadas da lasanha...
+
+Preparando: Ravioli de Frango
+Cozinhando o ravioli recheado...
+
+Total: R$ 87.00
